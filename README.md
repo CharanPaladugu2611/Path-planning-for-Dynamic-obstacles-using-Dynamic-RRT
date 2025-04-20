@@ -1,4 +1,4 @@
-__🧭 Dynamic Path Planning with RRT* in Dynamic Environments__
+# 🧭 Dynamic Path Planning with RRT* in Dynamic Environments
 
 Welcome to the repository for our ENPM661 Final Project, where we implemented a robust and dynamic path planning algorithm using Rapidly-exploring Random Trees (RRT*) that navigates complex environments filled with both static and dynamic obstacles. This project is inspired by the Dynamic RRT algorithm and incorporates real-time replanning and visualization of optimal paths.
 <p align="left">
@@ -7,7 +7,7 @@ Welcome to the repository for our ENPM661 Final Project, where we implemented a 
 </p>
 
 
-**📌Project Overview:**\
+## 📌Project Overview:
 This implementation leverages:
 
 * A customized RRT* algorithm enhanced for dynamic environments.
@@ -17,7 +17,7 @@ This implementation leverages:
 * Replanning upon collision with dynamic obstacles.<br/>
 
 
-**🛠️Technologies Used:**
+## 🛠️Technologies Used:
 
 
 * Python 3
@@ -27,18 +27,18 @@ This implementation leverages:
 * ImageIO
 * Google Colab (for convenience)
 
-**🔍 Features:**
+## 🔍 Features:
 * Dynamic Obstacles: Obstacles with randomly assigned speeds and movement directions.
 * Collision Detection: Rechecks path validity and replans if a collision is detected.
 * Rewiring and Optimization: Uses RRT* heuristics to optimize paths with rewiring.
 * Efficient Sampling: Uniform random sampling with steering heuristics.
 
-**📈Results:**
+## 📈Results:
 * Average Planning Time: ~12.5s over 400 runs
 * Path Replanning: Occurs dynamically when an obstacle crosses the path
 * Run-time Stability: Algorithm gracefully adapts to dynamic obstacle changes
 
-**✨Future Work:**
+## ✨Future Work:
 * Integrate with ROS2 for real robot deployment (initial experiments done using Turtlebots).
 * Add support for informed sampling.
 * Explore machine learning-based sampling heuristics to improve convergence rates.
