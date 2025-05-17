@@ -6,6 +6,7 @@ Welcome to the repository for our ENPM661 Final Project, where we implemented a 
 <img src="https://github.com/user-attachments/assets/0d82fbf6-6c6f-40ec-8f0d-e0db93b75854" width="350" height="350">
 </p>
 
+---
 
 ## 📌Project Overview:
 This implementation leverages:
@@ -16,6 +17,7 @@ This implementation leverages:
 * Dynamic obstacle movement modeled using velocity vectors and rebound logic.
 * Replanning upon collision with dynamic obstacles.<br/>
 
+---
 
 ## 🛠️Technologies Used:
 
@@ -27,11 +29,15 @@ This implementation leverages:
 * ImageIO
 * Google Colab (for convenience)
 
+---
+
 ## 🔍 Features:
 * Dynamic Obstacles: Obstacles with randomly assigned speeds and movement directions.
 * Collision Detection: Rechecks path validity and replans if a collision is detected.
 * Rewiring and Optimization: Uses RRT* heuristics to optimize paths with rewiring.
 * Efficient Sampling: Uniform random sampling with steering heuristics.
+
+---
 
 ## 📈Results:
 * Average Planning Time: ~12.5s over 400 runs
